@@ -24,27 +24,27 @@ cd flatdango
 2. Install JSON Server
 Make sure you have npm installed. Then, install JSON Server:
 
-bash
-Copy code
-npm install -g json-server
-3. Start the Server
+bash<br>
+Copy code<br>
+<npm install -g json-server>
+3. Start the Server<br>
 Run the following command to start the JSON Server:
 
-bash
-Copy code
-json-server --watch db.json
+bash<br>
+Copy code<br>
+<json-server --watch db.json><br>
 4. Open the App
 Open index.html in your favorite browser to launch the app.
 
 ## 📂 Project Structure
 plaintext
 Copy code
-flatdango/
-├── db.json         # Mock database for the movies
-├── index.html      # Main HTML file
-├── style.css       # Styling for the application
-├── index.js        # JavaScript for functionality
-├── README.md       # Project documentation
+<flatdango/>
+├── db.json         # Mock database for the movies<br>
+├── index.html      # Main HTML file<br>
+├── style.css       # Styling for the application<br>
+├── index.js        # JavaScript for functionality<br>
+├── README.md       # Project documentation<br>
 ## 📖 Usage Guide
 1. Browse Movies
 
@@ -83,6 +83,7 @@ Submit a pull request with your changes.
 ## 💡 Credits
 Built with ❤️ by Your Name.
 
-## 📃 License
-This project is licensed under the MIT License.
-
+## Author 
+## Contact 
+1. Phone: +254799425417
+2. Email: <manyisanewton25@gmail.com>
