@@ -4,32 +4,63 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flatdango</title>
- <link rel="stylesheet" href="./style.css">
+
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>   
-
-
+  <!-- Main container for all content -->
   <div id="container">
+
+    <!-- Sidebar section for listing movies -->
     <aside>
-      <marquee bgcolor="green">Hello Wellcome to our Flatdango  movie theatre enjoy your time, you are highly wellcomed</marquee>
+      <!-- A scrolling marquee with a welcome message -->
+      <marquee bgcolor="green">
+        Hello Welcome to our Flatdango movie theatre. Enjoy your time; you are highly welcomed.
+      </marquee>
+
+      <!-- Section title for the sidebar -->
       <h2>Movies</h2>
+
+      <!-- Unordered list to hold dynamically added movies -->
       <ul id="films">
-        <!-- Movies will be dynamically added here -->
+        <!-- Movies will be added here by JavaScript -->
       </ul>
     </aside>
+
+    <!-- This additional <ul> is redundant because the previous <ul id="films"> already exists -->
+    <!-- Consider removing this duplicate -->
     <ul id="films"></ul>
-    <main  style="background:linear-gradient(110deg,yellow 5%,20%, pink 70%)">
+
+    <!-- Main content area with a gradient background -->
+    <main style="background:linear-gradient(110deg, yellow 5%, 20%, pink 70%)">
+
+      <!-- Container for displaying movie details -->
       <div id="movie-details">
+        <!-- Movie title -->
         <h2 id="movie-title"></h2>
+
+        <!-- Placeholder for the movie's poster image -->
         <img id="movie-poster" alt="Movie Poster">
+
+        <!-- Movie description -->
         <p id="movie-description"></p>
-        <p> <span id="movie-runtime"></span></p>
-        <p> <span id="movie-showtime"></span></p>
-        <p> <span id="movie-tickets"></span></p>
+
+        <!-- Movie runtime -->
+        <p><span id="movie-runtime"></span></p>
+
+        <!-- Movie showtime -->
+        <p><span id="movie-showtime"></span></p>
+
+        <!-- Available tickets -->
+        <p><span id="movie-tickets"></span></p>
+
+        <!-- Button to buy a ticket -->
         <button id="buy-ticket">Buy Ticket</button>
       </div>
     </main>
   </div>
+
+  <!-- Link to the external JavaScript file for adding interactivity -->
   <script src="./index.js"></script>
 </body>
 </html>
