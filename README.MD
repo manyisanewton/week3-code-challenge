@@ -52,9 +52,11 @@ The sidebar displays a list of available movies.
 Click on any movie to view its details.
 View Details
 
-2. Check runtime, showtime, and available tickets.
+2. Check runtime,  
+showtime,
+and available tickets.
 Enjoy the movie poster and description.
-3.Buy Tickets
+3.Buy Tickets <br>
 
 Click the Buy Ticket button to purchase.
 If tickets are sold out, the button will be disabled.
