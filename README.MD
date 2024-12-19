@@ -17,28 +17,22 @@ Follow these steps to run the project locally:
 
 1. Clone the Repository
 
-bash
-Copy code
 git clone https://github.com/your-username/flatdango.git
 cd flatdango
 2. Install JSON Server
 Make sure you have npm installed. Then, install JSON Server:
 
-bash<br>
-Copy code<br>
 <npm install -g json-server>
 3. Start the Server<br>
 Run the following command to start the JSON Server:
 
-bash<br>
-Copy code<br>
 <json-server --watch db.json><br>
 4. Open the App
 Open index.html in your favorite browser to launch the app.
 
 ## 📂 Project Structure
 plaintext
-Copy code
+
 <flatdango/>
 ├── db.json         # Mock database for the movies<br>
 ├── index.html      # Main HTML file<br>
